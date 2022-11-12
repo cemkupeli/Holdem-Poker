@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B914F17829203B3F00BF42AF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B914F17729203B3F00BF42AF /* main.cpp */; };
+		B914F18A29203CAC00BF42AF /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B914F18129203CAC00BF42AF /* game.cpp */; };
+		B914F18B29203CAC00BF42AF /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B914F18429203CAC00BF42AF /* player.cpp */; };
+		B914F18C29203CAC00BF42AF /* checker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B914F18529203CAC00BF42AF /* checker.cpp */; };
+		B914F18D29203CAC00BF42AF /* cards.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B914F18629203CAC00BF42AF /* cards.cpp */; };
+		B914F18E29203CAC00BF42AF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B914F18729203CAC00BF42AF /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +28,18 @@
 
 /* Begin PBXFileReference section */
 		B914F17429203B3F00BF42AF /* HoldemPoker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HoldemPoker; sourceTree = BUILT_PRODUCTS_DIR; };
-		B914F17729203B3F00BF42AF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B914F17E29203CAC00BF42AF /* checker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = checker.h; sourceTree = "<group>"; };
+		B914F17F29203CAC00BF42AF /* cards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cards.h; sourceTree = "<group>"; };
+		B914F18029203CAC00BF42AF /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		B914F18129203CAC00BF42AF /* game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		B914F18229203CAC00BF42AF /* mySave.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mySave.txt; sourceTree = "<group>"; };
+		B914F18329203CAC00BF42AF /* kupeli_final_README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kupeli_final_README.txt; sourceTree = "<group>"; };
+		B914F18429203CAC00BF42AF /* player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = player.cpp; sourceTree = "<group>"; };
+		B914F18529203CAC00BF42AF /* checker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = checker.cpp; sourceTree = "<group>"; };
+		B914F18629203CAC00BF42AF /* cards.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cards.cpp; sourceTree = "<group>"; };
+		B914F18729203CAC00BF42AF /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B914F18829203CAC00BF42AF /* game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
+		B914F18929203CAC00BF42AF /* player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +72,18 @@
 		B914F17629203B3F00BF42AF /* HoldemPoker */ = {
 			isa = PBXGroup;
 			children = (
-				B914F17729203B3F00BF42AF /* main.cpp */,
+				B914F18629203CAC00BF42AF /* cards.cpp */,
+				B914F17F29203CAC00BF42AF /* cards.h */,
+				B914F18529203CAC00BF42AF /* checker.cpp */,
+				B914F17E29203CAC00BF42AF /* checker.h */,
+				B914F18129203CAC00BF42AF /* game.cpp */,
+				B914F18829203CAC00BF42AF /* game.h */,
+				B914F18729203CAC00BF42AF /* main.cpp */,
+				B914F18029203CAC00BF42AF /* main.h */,
+				B914F18429203CAC00BF42AF /* player.cpp */,
+				B914F18929203CAC00BF42AF /* player.h */,
+				B914F18329203CAC00BF42AF /* kupeli_final_README.txt */,
+				B914F18229203CAC00BF42AF /* mySave.txt */,
 			);
 			path = HoldemPoker;
 			sourceTree = "<group>";
@@ -119,7 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B914F17829203B3F00BF42AF /* main.cpp in Sources */,
+				B914F18C29203CAC00BF42AF /* checker.cpp in Sources */,
+				B914F18D29203CAC00BF42AF /* cards.cpp in Sources */,
+				B914F18B29203CAC00BF42AF /* player.cpp in Sources */,
+				B914F18A29203CAC00BF42AF /* game.cpp in Sources */,
+				B914F18E29203CAC00BF42AF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

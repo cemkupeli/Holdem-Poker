@@ -1,14 +1,15 @@
-//
-//  main.cpp
-//  HoldemPoker
-//
-//  Created by Cem Kupeli on 11/12/22.
-//
+#include "main.h"
 
-#include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int main()
+{
+    // Seed the random number generator
+    srand(static_cast<int>(time(0)));
+    
+    // Uncomment for testing
+    // test();
+    
+    Game gameObj;
+    gameObj.playGame();
 }
+
+
