@@ -1,6 +1,16 @@
-# Summary
+# Hold'em Poker Simulator
 
-This is a text-based Texas Hold'em Poker simulator that I wrote in July 2020. The game directs the user for the most part, so being familiar with the different moves you can make is enough to understand the flow of the game:
+## Project information
+
+Author: Cem Kupeli
+
+Dates worked on: July 2020
+
+Purpose: Simulate a text-based version of Texas Hold'em Poker
+
+## Summary
+
+This is a text-based Texas Hold'em Poker simulator that I wrote using C++ in July 2020. The game directs the user for the most part, so being familiar with the different moves you can make is enough to understand the flow of the game:
 - Check: When your current bet is the same as the highest bet on the table, you can check to let the turn pass without any transaction of chips between you and the pot (the collection of chips that represent the sum of all players' bets)
 - Call: When you current bet is less than the highest bet on the table, you can call to increase your current bet to that amount (covering the difference from the chips you have in your hand.) This move is mutually exclusive with check.
 - Raise: When your current bet is less than the highest bet on the table and you have enough chips in your hand to increase your current bet beyond the highest bet on the table, you can choose to raise your bet to any amount greater than the current highest bet.
@@ -9,7 +19,7 @@ This is a text-based Texas Hold'em Poker simulator that I wrote in July 2020. Th
 
 For more information, you can refer to [Texas Holdem](https://en.wikipedia.org/wiki/Texas_hold_%27em)
 
-# Ideas
+## Ideas
 
 Some features that I have not yet added but will in the future:
 - Unique cards (no repetitions)
